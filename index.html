@@ -14,7 +14,11 @@
     document.write("1234214124125421");
     document.write("<br><hr>");
     today = new Date();
-    document.write("Сегодня " + today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear() + ", время " + today.getHours() + ":" + today.getMinutes())
+    document.write("Сегодня " + today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear() + ", время " + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds());
+    document.write("<br><hr>");
+    end = "Пока";
+    document.write("<button onclick='alert(end)'>Привет!</button>");
+    self.close();
 </script>
 
 </body>
